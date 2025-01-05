@@ -113,7 +113,6 @@ const Header = () => {
                                     <img
                                         className="w-8 h-8 rounded-full ring-green-700 ring-2"
                                         src={user?.pic}
-                                        alt="User profile"
                                     />
                                 </button>
 
