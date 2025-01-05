@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/farmcart.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmCart</title>
+    
+    <!-- Relaxed CSP for testing: allows inline scripts, external scripts, and unsafe scripts -->
+    <!--  <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *; font-src 'self' data:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; worker-src 'self' blob:"
+    /> -->
+
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- Local module script -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
